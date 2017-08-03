@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4412629936,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.InitializePage()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 250703040,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.TearDownPage(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 141804434,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I naviate to login page",
+            "match": {
+              "location": "StepDef.iNaviateToLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2379521,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "See how ccucmber-java8 looks like",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDef.seeHowCcucmberJavaLooksLike(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 289863377,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter the following value for Login",
+            "match": {
+              "location": "StepDef.iEnterTheFollowingValueForLogin(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 8
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpassword"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 403534679,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 10,
+                "value": "#      | admin_DT_2 | adminpassword_DT_2 |"
+              }
+            ],
+            "line": 11,
+            "name": "I click login button",
+            "match": {
+              "location": "StepDef.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91697106,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "StepDef.iShouldSeeTheUserformPage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "Successfully login to the page",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
